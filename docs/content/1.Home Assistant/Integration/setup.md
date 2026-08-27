@@ -1,12 +1,12 @@
 ---
-title: Integration Setup
+title: Setup
 ---
 
 # Using WiCAN with Home Assistant
 
 WiCAN can be integrated with Home Assistant using the official integration. This guide will walk you through the setup process, both for configuring the WiCAN device and setting it up in Home Assistant. Follow these steps to make WiCAN communicate seamlessly with Home Assistant and provide real-time data from your vehicle.
 
-## Integration Device Setup
+## Device Setup
 
 ![image](/ha/automate.png){width=300}
 
@@ -52,15 +52,17 @@ To connect WiCAN to Home Assistant, you first need to connect it to the same WiF
     Click on the **Store** button, then go to the **About** tab to reboot the device.
 
 
-## Integration HA Setup
+## HA Setup
 
 The WiCAN integration is available through HACS. You can find the integration repository [here](https://github.com/jay-oswald/ha-wican).
 
 1. **Install the Integration via HACS**:  
+
+   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=jay-oswald&repository=ha-wican&category=integration)
+
    Add the integration repository link to HACS and install the **WiCAN** integration.
    1. Follow the official guide to [add a custom repository](https://www.hacs.xyz/docs/faq/custom_repositories/). The Repository URL is `https://github.com/jay-oswald/ha-wican` and it is an `Integration`
    1. Follow the official guide to [download a repository](https://www.hacs.xyz/docs/use/repositories/dashboard/#downloading-a-repository)
-
 
 1. **Navigate to Integrations**:  
    In Home Assistant, go to **Settings** > **Devices & Services** > **Integrations**.
